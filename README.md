@@ -1,9 +1,5 @@
-Usage:
+# Usage:
 
-# Installation
-
-`npm install`
-
-# Print underscore usage
-
-`./node_modules/.bin/jscodeshift -t codemods/transforms/underscore_usage.js --extensions js,jsx src/** | tee underscore_usage.log`
+`npm install -g jscodeshift`
+`git clone https://github.com/nishp1/codemods.git`
+`jscodeshift -t <codemod-script> --extensions js,jsx <file>`
